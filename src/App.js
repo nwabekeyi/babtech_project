@@ -1,11 +1,11 @@
-import NavBar from "./navBar";
-import AnotherNav from "./anotherNav";
+
+import Jayde from "./jaydev"
+
 
 function App() {
   return (
     <div className="App">
-     <NavBar />
-     <AnotherNav info="I am another navbar" />
+     <Jayde/>
     </div>
   );
 }
