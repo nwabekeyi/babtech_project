@@ -1,6 +1,7 @@
 const Jayde = () => {
   return ( 
-    <header>
+    <>
+     <header>
       <div className="header">
         <div className="head">
         <div className="logo">
@@ -25,9 +26,11 @@ const Jayde = () => {
           <h2>Contact Us</h2>
         </div>
          
-      </div>
+      </div> 
+      <div></div>    
+    </header>
 
-      <div className="main">
+    <div className="main">
         <h2>Let's start a conversation</h2>
         <div className="main-child">
         <div className="text-div">
@@ -143,12 +146,9 @@ const Jayde = () => {
         </div>
      
       </div>
-
-    
-     
-    </header>
+    </>
    );
    
 }
  
-export default Jayde;
+export default Jayde; 

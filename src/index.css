@@ -28,6 +28,12 @@ code {
   align-items: center;
   justify-content: center;
   gap: 120px;
+  height: 15vh;
+  /* border: 2px solid red; */
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(2, 2, 246, 0.275);
 }
 .logo > h1{
   font-size: 2.5rem;
@@ -47,11 +53,17 @@ nav ul li{
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+nav ul li:hover{
+  transform: translateY(-20%);
+  cursor: pointer;
 }
 .head-txt > h2 {
   font-size: 3rem;
   color: white;
   font-weight: 600;
+  margin-top: 200px;
 }
 .header-btn > button {
   padding: 8px 15px;
@@ -60,6 +72,11 @@ nav ul li{
   border-radius: 4px;
   outline: none;
   color: white;
+  transition: all 0.5s ease-in-out;
+}
+.header-btn > button:hover{
+  cursor: pointer;
+  transform: translateY(-20%);
 }
 .container {
   width: 500px;
