@@ -1,10 +1,12 @@
-import NavBar from "./navBar";
+import Home from "./home";
+import AppRoutes from "./routes";
 
 function App() {
+
   return (
-    <div className="App">
-     <NavBar />
-    </div>
+    <AppRoutes>
+        <Home />
+    </AppRoutes>
   );
 }
 
