@@ -1,12 +1,21 @@
-import Home from "./home";
-import AppRoutes from "./routes";
+
+
+import Jayde from "./jaydev"
+
+
+import NavBar from "./navBar";
+
 
 function App() {
 
   return (
-    <AppRoutes>
-        <Home />
-    </AppRoutes>
+    <div className="App">
+
+     <Jayde/>
+
+     <NavBar />
+
+    </div>
   );
 }
 
