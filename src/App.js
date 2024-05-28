@@ -1,19 +1,11 @@
-
-
-import Jayde from "./jaydev"
-
-
-import NavBar from "./navBar";
-
-
+import MyRoute from "./routes";
 function App() {
 
   return (
     <div className="App">
 
-     <Jayde/>
-
-     <NavBar />
+      <MyRoute />
+     {/* <NavBar /> */}
 
     </div>
   );

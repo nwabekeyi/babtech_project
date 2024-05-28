@@ -65,15 +65,7 @@ nav ul li:hover{
   font-weight: 600;
   margin-top: 200px;
 }
-.header-btn > button {
-  padding: 8px 15px;
-  background-color: #007AFF;
-  border: none;
-  border-radius: 4px;
-  outline: none;
-  color: white;
-  transition: all 0.5s ease-in-out;
-}
+
 .header-btn > button:hover{
   cursor: pointer;
   transform: translateY(-20%);

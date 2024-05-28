@@ -1,34 +1,8 @@
+import pageWithNav from "./navbarWrapper";
+import Button from "./button";
 const Jayde = () => {
-  return ( 
+  return (
     <>
-     <header>
-      <div className="header">
-        <div className="head">
-        <div className="logo">
-          <h1>TUNE</h1>
-          </div>
-          <nav>
-            <ul>
-              <li>SOLUTIONS</li>
-              <li>WHY TUNE</li>
-              <li>PRICING</li>
-              <li>LEARN</li>
-              <li>SUPPORT</li>
-              <li>ABOUT</li>
-              <li>BLOG</li>
-            </ul>
-          </nav>
-          <div className="header-btn">
-            <button>REQUEST A DEMO</button>
-          </div>
-        </div>
-        <div className="head-txt">
-          <h2>Contact Us</h2>
-        </div>
-         
-      </div> 
-      <div></div>    
-    </header>
 
     <div className="main">
         <h2>Let's start a conversation</h2>
@@ -140,7 +114,7 @@ const Jayde = () => {
         
 
       </div>
-      <button className="send-btn" type="submit">SEND MESSAGE</button>
+      <Button form />
     </form>
   </div>
         </div>
@@ -148,7 +122,11 @@ const Jayde = () => {
       </div>
     </>
    );
-   
+
 }
+
+const Page  = pageWithNav(Jayde);
+
+
  
-export default Jayde; 
+export default Page;
