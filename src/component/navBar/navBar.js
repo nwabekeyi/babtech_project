@@ -13,13 +13,13 @@ const Navbar = () => {
       case '/services':
         return 'SERVICES';
       case '/pricing':
-        return 'PRICING';
+        return 'OUR PRICES';
       case '/contact':
         return 'CONTACT US';
       case '/support':
         return 'SUPPORT';
       case '/about':
-        return 'ABOUT';
+        return 'ABOUT US';
       default:
         return 'PAGE NOT FOUND';
     }
