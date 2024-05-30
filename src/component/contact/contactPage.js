@@ -1,10 +1,10 @@
-import pageWithNav from "./navbarWrapper";
-import Button from "./button";
-const Jayde = () => {
-  return (
-    <>
+import pageWithNav from "../tempalates/navbarWrapper/navbarWrapper";
+import Button from "../tempalates/button";
 
-    <div className="main">
+const Component = () => {
+    return(
+        <div>
+ <div className="main">
         <h2>Let's start a conversation</h2>
         <div className="main-child">
         <div className="text-div">
@@ -119,14 +119,11 @@ const Jayde = () => {
   </div>
         </div>
      
-      </div>
-    </>
-   );
+      </div>        </div>
+    );
 
 }
 
-const Page  = pageWithNav(Jayde);
+const ContactPage = pageWithNav(Component);
 
-
- 
-export default Page;
+export default ContactPage;

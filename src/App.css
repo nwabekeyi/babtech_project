@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color:red ;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    background: linear-gradient(rgba(0, 153, 255, 0.5), rgba(0,153,255,0.5),rgba(36, 43, 48, 0.082)), url('./background_main_contact_form_1024x391_by_omertexltd_ddyoyqd-fullview.jpg');
+   color: white;
+   
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    
+}
+
+ .logo > h1 {
+  
+   font-size: 2.5rem;
+   font-weight: 100;
+  
+  }
+  nav ul{
+    font-size: 16px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+nav ul li{
+    list-style: none;
+    
+}
+.request-btn > button{
+    background-color: #007AFF;
+    color: white;
+    padding:5px 15px;
+    border: none;
+}
+.head-txt{
+    font-size: 18px;
+    font-weight: 100;
+}
+.cont{
+   /* border: 2px solid red; */
+   padding-left: 460px;
+   padding-top: 80px;
+}
+.cont> h1{
+    color: black
+}
+.left-side1{
+    padding-left: 60px;
+    padding-top: 65px;
+    font-size: 11px;
+    font-weight:400 ;
+    color: #000000b4;
+}
+
+.left-side2{
+    color: #000000f5;
+    padding-top: 8px;
+    padding-left: 50px;
+}
+
+.left-side3{
+    color: rgba(0, 0, 0, 0.541);
+    padding-left: 50px;
+}
+.trial{
+    color: rgb(20, 131, 223);
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #000000ab;
+    font-weight: 400;
+}
+
+form {
+    width: 500px;
+    
+    background: #fff;
+    padding: 20px;
+    
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="Send"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+input[type="Send"]:hover {
+    background-color: #0056b3;
+}
+.check{
+    transform: scale(1.7);
+}
+.checkbox{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.checkbox > h4 {
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+.checkb{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.checkb> h4{
+    padding-top: 40px;
+}
