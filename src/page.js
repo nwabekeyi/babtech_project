@@ -1,5 +1,6 @@
 import pageWithNav from "./navbarWrapper";
 import Button from "./button";
+import Container from "./container";
 const Jayde = () => {
   return (
     <>
@@ -120,12 +121,14 @@ const Jayde = () => {
         </div>
      
       </div>
+      <Container/>
     </>
    );
 
 }
 
 const Page  = pageWithNav(Jayde);
+
 
 
  
