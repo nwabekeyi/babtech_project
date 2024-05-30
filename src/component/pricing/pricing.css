@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.price-container {
+    text-align: center;
+    /* background-color: #ffbabf; */
+    background-image: url(../pricing/assets/price2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    text-align: right;
+  }
+  
+  .price-image {
+    width: 32%;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+  }
