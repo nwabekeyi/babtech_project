@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Button from "./button"
+import Button from "../tempalates/button"
 
 const Navbar = () =>{
     return(
@@ -11,22 +11,19 @@ const Navbar = () =>{
             </div>
             <nav>
               <ul>
-                <li>SOLUTIONS</li>
-                <li>WHY TUNE</li>
-                <li>PRICING</li>
-                <Link to= 'contact'><li>CONTACT</li></Link>
-                <li>SUPPORT</li>
-                <li>ABOUT</li>
-                <li>BLOG</li>
+              <Link to= '/'>HOME</Link>
+                <Link to= ''>SERVICES</Link>
+                <Link to= ''>PRICING</Link>
+                <Link to= '/contact'>CONTACT</Link>
+                <Link to= ''>SUPPORT</Link>
+                <Link to= '/about'>ABOUT</Link>
               </ul>
             </nav>
             <div className="header-btn">
                 <Button />
             </div>
           </div>
-          <div className="head-txt">
-            <h2>Contact Us</h2>
-          </div>
+         
   
         </div>
       </nav>

@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./navBar"; // Make sure you have the correct path to your Navbar component
+import Navbar from "../../navBar/navBar"; // Make sure you have the correct path to your Navbar component
 
 const pageWithNav = (wrappedComponent) => {
   const WithNavbar = (...props) => {
