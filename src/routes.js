@@ -1,7 +1,7 @@
 import HomePage from "./component/homePage/homePage";
 import ContactPage from "./component/contact/contactPage";
 import About from "./component/about/About";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const MyRoute = () => {
     return(

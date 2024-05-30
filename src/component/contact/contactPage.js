@@ -1,5 +1,6 @@
 import pageWithNav from "../tempalates/navbarWrapper/navbarWrapper";
 import Button from "../tempalates/button";
+import "./contact.css"
 
 const Component = () => {
     return(
