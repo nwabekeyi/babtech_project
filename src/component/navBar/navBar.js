@@ -9,7 +9,7 @@ const Navbar = () => {
   const getHeaderText = (pathname) => {
     switch (pathname) {
       case '/':
-        return 'HOME';
+        return 'Welcome';
       case '/services':
         return 'SERVICES';
       case '/pricing':
