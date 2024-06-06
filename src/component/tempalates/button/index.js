@@ -1,16 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import "./button.css";
-import { useLocation } from 'react-router-dom';
 
-function Button({ children, form }) {
+function Button({children, buttonText }) {
+    const [text, setText] = useState(buttonText);
 
-
-    const buttonName = useLocation().pathname === "contact" ? "contact button" : "Request a demo"
-
-    console.log(useLocation.pathname)
+  useEffect(() => {
+    setText(buttonText); // Update button text when the prop changes
+  }, [buttonText]);
+ 
+    
   return (
-    <div className="button">
-      <button>{form ? "Submit" : buttonName}</button>
+    <div  >
+      {
+          
+        <button className="button" >{text}</button>
+      
+      }
+       
       {React.Children.map(children, child => React.cloneElement(child))}
     </div>
   );

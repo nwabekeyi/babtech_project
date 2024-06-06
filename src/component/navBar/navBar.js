@@ -45,7 +45,7 @@ const Navbar = () => {
           </ul>
         </nav>
         <div className="header-btn">
-          <Button />
+          <Button buttonText= 'Request for a demo' />
         </div>
       </div>
     </div>
