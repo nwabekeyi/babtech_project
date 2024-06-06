@@ -3,7 +3,6 @@ import ContactPage from "./component/contact/contactPage";
 import About from "./component/about/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Pricing from "./component/pricing/pricing";
-
 const MyRoute = () => {
   return (
     <Router>
