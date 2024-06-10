@@ -9,17 +9,17 @@ const Navbar = () => {
   const getHeaderText = (pathname) => {
     switch (pathname) {
       case '/':
-        return 'HOME';
+        return 'Welcome';
       case '/services':
         return 'SERVICES';
       case '/pricing':
-        return 'PRICING';
+        return 'OUR PRICES';
       case '/contact':
         return 'CONTACT US';
       case '/support':
         return 'SUPPORT';
       case '/about':
-        return 'ABOUT';
+        return 'ABOUT US';
       default:
         return 'PAGE NOT FOUND';
     }
@@ -45,7 +45,7 @@ const Navbar = () => {
           </ul>
         </nav>
         <div className="header-btn">
-          <Button />
+          <Button buttonText= 'Request for a demo' />
         </div>
       </div>
     </div>

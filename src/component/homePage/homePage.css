@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        /* section one design */
+.sect1{
+    width: 100%;
+    height: 90vh;
+    background: rgba(198, 197, 197, 0.315);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.tune1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.tune1 h1{
+    font-size: 2rem;
+    padding-top: 50px;
+}
+.tune1 p{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.533);
+    text-align: center;
+    line-height: 1.5;
+}
+.flex-box{
+    display: flex;
+    gap: 50px;
+    width: 70%;
+    margin-top: 6%;
+
+}
+.advert,
+.network{
+    height: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advert Button,
+.network Button{
+    width: 200px;
+    height: 35px;
+}
+
+.advert h1,
+.network h1{
+    font-size: 1.7rem;
+    padding-top:40px;
+}
+.advert p,
+.network p{
+    text-align: center;
+    padding:30px 10px 30px 10px ;
+    color: rgba(0, 0, 0, 0.533) ;
+    line-height: 2;
+}
+
+/* section two design */
+
+.sect2{
+    width: 100%;
+    height: 230vh;
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#intelligent,
+#flexible,
+#secure{
+    display: flex;
+  
+    justify-content: center;
+     gap: 40px;
+    width: 70%;
+    padding: 20px;
+}
+#flexible{
+    margin-top: 80px;
+}
+
+#intelligent span,
+#flexible span,
+#secure span{
+    font-size: 0.8rem;
+    color:rgba(0, 0, 0, 0.533);
+   padding-top: 20px;
+}
+#intelligent h2,
+#flexible h2,
+#secure h2{
+    padding-top: 10px;
+}
+#intelligent p,
+#flexible p,
+#secure p{
+    padding-top: 20px;
+    line-height: 2;
+    color: rgba(0, 0, 0, 0.533);
+}
+#intelligent ul ,
+#flexible ul ,
+#secure ul {
+    margin-top: 20px;
+}
+#intelligent ul li,
+#flexible ul li,
+#secure ul li{
+    line-height: 2;
+    color:rgba(0, 0, 0, 0.533);
+    ;
+
+}
+#secure small{
+    color: dodgerblue;
+    font-weight: 700;
+
+}
+#secure small:hover{
+    cursor: pointer;
+    color: black;
+    transition:all 0.7s ease;
+}
+
+
+/* SECTION THREE DESIGN */
+
+.sect3{
+    width: 100%;
+    height: 30vh;
+    background: rgb(2, 2, 63);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+    ;
+}
+.sect3 h2{
+    font-size: 1.7rem;
+    color: white;
+}
+.sect3 Button{
+    width: 200px;
+    height: 40px;
+}
