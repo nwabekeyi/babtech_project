@@ -579,21 +579,12 @@ video {
   }
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .flex {
   display: flex;
 }
 
 .grow {
   flex-grow: 1;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
