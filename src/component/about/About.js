@@ -1,9 +1,10 @@
 import pageWithNav from "../tempalates/navbarWrapper/navbarWrapper";
-
+import "./About.css"
 const Component = () => {
     return(
-        <div>
-            <p>This is our ABOUT us page</p>
+        <div className="container">
+     vujkb iob 
+           
         </div>
     );
 }
