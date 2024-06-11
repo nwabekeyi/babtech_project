@@ -1,12 +1,12 @@
 import MyRoute from "./routes";
+
 function App() {
+
 
   return (
     <div className="App">
-
       <MyRoute />
-     {/* <NavBar /> */}
-
+      {/* <NavBar /> */}
     </div>
   );
 }
